@@ -31,8 +31,6 @@
               -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
   
   <!-- Launching rviz -->
-  <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
+  <node pkg="rviz" type="rviz" name="rviz" respawn="false" args="-d $(find my_robot)/config/rviz_config.rviz"/>
 
 </launch>
-
-
