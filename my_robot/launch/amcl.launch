@@ -15,10 +15,10 @@
 
     <!-- AMCL parameter tuning -->
 
-    <param name="min_particles" value="150"/>
+    <param name="min_particles" value="250"/>
     <param name="max_particles" value="1000"/>
-    <param name="update_min_d" value="0.25"/>
-    <param name="update_min_a" value="0.2"/>
+    <param name="update_min_d" value="0.1"/>
+    <param name="update_min_a" value="0.03"/>
 
     <param name="laser_model_type" value="likelihood_field"/>
 	  <param name="laser_z_hit" value="0.98"/>
