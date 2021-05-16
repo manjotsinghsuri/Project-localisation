@@ -23,6 +23,7 @@ Localisation of robot
 * ### If u want to move robot my teleopeartion 
     ```rosrun teleop_twist_keyboard simple_teleop.py```
 
-### Now move the robot either using teleoperation or using 2D Navigation Goal feature in RVIZ, u will see robot loacalising in rviz.
+
+Now move the robot either using teleoperation or using 2D Navigation Goal feature in RVIZ, u will see robot loacalising in rviz.
 
 
