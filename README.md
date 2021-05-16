@@ -21,10 +21,8 @@ Localisation of robot
     ```roslaunch my_robot amcl.launch```
 
 * ### If u want to move robot my teleopeartion 
-    ```rosrun my_robot simple_teleop.py```
+    ```rosrun teleop_twist_keyboard simple_teleop.py```
 
-## Following are the images of the robot localising
-
-![starting](/home/manjot/Pictures/InitialPosition.png)
+### Now move the robot either using teleoperation or using 2D Navigation Goal feature in RVIZ, u will see robot loacalising in rviz.
 
 
